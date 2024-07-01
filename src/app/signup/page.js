@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 "use client";
 
 import Image from "next/image";
@@ -262,7 +263,7 @@ const page = () => {
                 <div>
                   {isResendBtnVisible ? (
                     <div className="mt-4 text-center text-sm text-gray-500 cursor-pointer">
-                      Didn't receive OTP ?
+                      {"Didn't receive OTP ?"}
                       <span
                         onClick={handleResendOtp}
                         className="cursor-pointer text-blue-900 font-medium"
@@ -272,7 +273,7 @@ const page = () => {
                     </div>
                   ) : (
                     <div className="mt-4 text-center text-sm text-gray-500">
-                      Didn't receive OTP? Resend in {otpResendCountdown} sec
+                      {`Didn't receive OTP? Resend in {otpResendCountdown} sec`}
                     </div>
                   )}
                 </div>

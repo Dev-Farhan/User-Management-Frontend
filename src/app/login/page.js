@@ -333,7 +333,7 @@ export default function Page() {
             {showOtp ? (
               showResendOtpButton ? (
                 <div className="mt-4 text-center text-sm text-gray-500 cursor-pointer">
-                  Didn't receive OTP ?
+                  {"Didn't receive OTP ?"}
                   <span
                     onClick={handleResendOtp}
                     className="cursor-pointer text-blue-900 font-medium"
@@ -343,7 +343,7 @@ export default function Page() {
                 </div>
               ) : (
                 <div className="mt-4 text-center text-sm text-gray-500">
-                  Didn't receive OTP? Resend in {countdown} sec
+                  {`Didn't receive OTP? Resend in {countdown} sec`}
                 </div>
               )
             ) : (
