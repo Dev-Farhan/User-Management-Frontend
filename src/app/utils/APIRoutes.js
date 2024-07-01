@@ -1,6 +1,7 @@
-export const host = "http://192.168.1.45:4000";
+// export const host = "http://192.168.1.45:4000";
 // export const host = 'http://192.168.21.220:4000'
 // export const host = "http://192.168.0.209:4000";
+export const host = "https://user-management-backend-lpta.onrender.com/";
 
 //API Endpoints
 export const REGISTER = `${host}/api/v1/auth/register`;
